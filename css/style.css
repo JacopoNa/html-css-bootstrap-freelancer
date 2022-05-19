@@ -1,6 +1,11 @@
 /* common */
 h2 {
     padding-top: 2rem;
+    text-align: center;
+}
+
+.stella {
+    text-align: center;
 }
 
 /* HEADER */
@@ -69,14 +74,16 @@ h3 {
     margin: 0 auto;
 }
 
-.third-section h2, .stella, .ms-button {
+.third-section .ms-button {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .ms-text {
     margin-bottom: 2rem;
 }
 
+/* md screen */
 @media  screen and (min-width:768px) {
     .ms-small-container {
         width: 70%;
