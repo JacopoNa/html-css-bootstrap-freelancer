@@ -25,3 +25,18 @@ a {
 .menu-list ul li {
     display: inline-block;
 }
+
+/* main */
+.first-section {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    padding-bottom: 40px;
+}
