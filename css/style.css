@@ -1,3 +1,8 @@
+/* common */
+h2 {
+    padding-top: 2rem;
+}
+
 /* HEADER */
 header {
     height: 100px;
@@ -51,4 +56,29 @@ h3 {
 
 .second-section {
     text-align: center;
+}
+
+/* third section */
+.third-section {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms-small-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.third-section h2, .stella, .ms-button {
+    text-align: center;
+}
+
+.ms-text {
+    margin-bottom: 2rem;
+}
+
+@media  screen and (min-width:768px) {
+    .ms-small-container {
+        width: 70%;
+    }
 }
