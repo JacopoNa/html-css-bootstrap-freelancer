@@ -65,12 +65,34 @@ a {
     text-align: center;
 }
 
-h1 {
-    font-size: 35px;
+.first-section img {
+    width: 250px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-h3 {
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+p {
     padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.stella::before, .stella::after {
+    content: '';
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stella i {
+    margin: 0 7px;
 }
 
 /* second section */
