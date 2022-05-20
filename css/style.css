@@ -1,6 +1,7 @@
 /* common */
 .title-section {
     padding-top: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -16,6 +17,10 @@
 .bg-green {
     background-color: #1abc9c;
     color: white;
+}
+
+section {
+    padding-bottom: 2rem;
 }
 
 /* HEADER */
@@ -77,7 +82,6 @@ h1 {
 }
 
 p {
-    padding-bottom: 40px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -85,25 +89,29 @@ p {
 .stella::before, .stella::after {
     content: '';
     width: 15%;
-    height: 3px;
+    height: 4px;
     background-color: white;
     display: inline-block;
-    vertical-align: middle;
+    margin-bottom: 7px;
 }
 
 .stella i {
     margin: 0 7px;
+    font-size: 22px;
+}
+
+.black-star::before, .black-star::after {
+    background-color: black;
 }
 
 /* second section */
 .ms-card {
-    background-color: blue;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
 
-.second-section {
-    text-align: center;
+.ms-card img {
+    max-width: 100%;
 }
 
 /* third section */
