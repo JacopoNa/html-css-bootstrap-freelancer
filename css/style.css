@@ -1,5 +1,5 @@
 /* common */
-h2 {
+.title-section {
     padding-top: 2rem;
     text-align: center;
 }
@@ -8,17 +8,28 @@ h2 {
     text-align: center;
 }
 
+.bg-darkblue {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.bg-green {
+    background-color: #1abc9c;
+    color: white;
+}
+
 /* HEADER */
 header {
     height: 100px;
-    background-color: #2c3e50;
-    color: white;
     display: flex;
     align-items: center;
 }
 
 nav {
-    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 ul {
@@ -34,13 +45,23 @@ a {
 
 .menu-list ul li {
     display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.burger i {
+    font-size: 25px;
 }
 
 /* MAIN */
 /* first section */
 .first-section {
-    background-color: #1abc9c;
-    color: white;
     text-align: center;
 }
 
@@ -64,10 +85,6 @@ h3 {
 }
 
 /* third section */
-.third-section {
-    background-color: #1abc9c;
-    color: white;
-}
 
 .ms-small-container {
     width: 80%;
@@ -96,8 +113,6 @@ h3 {
 
 .bottom-footer {
     height: 100px;
-    background-color: #2c3e50;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
