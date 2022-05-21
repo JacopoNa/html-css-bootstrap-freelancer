@@ -176,18 +176,37 @@ p {
     font-weight: 500;
 }
   
-
 /* FOOTER */
 /* top-footer */
 .top-footer {
     background-color: #3a546d;
     color: white;
+    font-weight: 500;
+    padding: 25px 0;
 }
 
 .ms-contact {
     margin: 1rem 0;
 }
 
+.description i {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.mini-title {
+    margin-bottom: 5px;
+}
+
+.description span {
+    color: #1abc9c;
+}
+
+/* bottom footer */
 .bottom-footer {
     height: 100px;
     display: flex;
