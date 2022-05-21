@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.blue-star {
+    color: #2c3e50;
+}
+
 .bg-darkblue {
     background-color: #2c3e50;
     color: white;
@@ -21,6 +25,20 @@
 
 section {
     padding-bottom: 2rem;
+}
+
+input.form-control, textarea.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+input.form-control:focus, textarea.form-control:focus {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid lightgray;
+    box-shadow: none;
 }
 
 /* HEADER */
@@ -100,8 +118,8 @@ p {
     font-size: 22px;
 }
 
-.black-star::before, .black-star::after {
-    background-color: black;
+.blue-star::before, .blue-star::after {
+    background-color: #2c3e50;
 }
 
 /* second section */
@@ -136,6 +154,28 @@ p {
     border-color: white;
     color: white;
 }
+
+/* fourth section */
+.ms-btn-green {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.form-control::-moz-input-placeholder {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #2c3e50;
+    font-weight: 500;
+}
+  
 
 /* FOOTER */
 /* top-footer */
